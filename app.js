@@ -1,9 +1,9 @@
 'use strict'
 
-const switcher = document.querySelector('.botao');
+let switcher = document.querySelector('#botao');
 
 switcher.addEventListener('click', function() {
-    Document.body.classList.toggle('dark-theme')
+    document.body.classList.toggle('dark-theme')
 
     var classname = document.body.classname;
     if(classname == "light-theme") {
